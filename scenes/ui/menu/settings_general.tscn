@@ -13,7 +13,7 @@ margin_bottom = -500.0
 option_name = "TR_LANG"
 option_key = "locale"
 help_tip = "TR_LANG_DESC"
-available_values = [ "en", "pl" ]
+available_values = [ "en", "pl", "zh" ]
 
 [node name="intro" parent="." instance=ExtResource( 1 )]
 margin_top = 85.0

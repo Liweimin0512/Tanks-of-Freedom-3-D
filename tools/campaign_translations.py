@@ -6,6 +6,7 @@ tr_name_base = ""
 translations_data = {
     "en": {},
     "pl": {},
+    "zh": {},
 }
 translations_cache = {}
 map_files_cache = {}
@@ -21,6 +22,7 @@ def add_translation(key, message):
     key = tr_name_base + key
     translations_data["en"][key] = message
     translations_data["pl"][key] = message
+    translations_data["zh"][key] = message
     translations_cache[message] = key
 
     return key

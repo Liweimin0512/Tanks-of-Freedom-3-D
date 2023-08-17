@@ -66,6 +66,10 @@ window/size/width=1280
 window/size/height=800
 window/vsync/use_vsync=false
 
+[global]
+
+local=false
+
 [input]
 
 ui_cancel={
@@ -205,7 +209,13 @@ cheat_kill={
 
 [locale]
 
-translations=PoolStringArray( "res://assets/translations/core.en.en.translation", "res://assets/translations/core.pl.pl.translation", "res://assets/translations/common.en.en.translation", "res://assets/translations/common.pl.pl.translation" )
+translations=PoolStringArray( "res://assets/translations/core.en.en.translation", "res://assets/translations/core.pl.pl.translation", "res://assets/translations/common.en.en.translation", "res://assets/translations/common.pl.pl.translation", "res://assets/translations/common.zh.zh.translation", "res://assets/translations/core.zh.zh.translation" )
+locale_filter=[ 0, [  ] ]
+translation_remaps={
+"res://assets/fonts/courier.tres": PoolStringArray( "res://assets/fonts/zh.tres:zh" ),
+"res://assets/fonts/courier_30.tres": PoolStringArray( "res://assets/fonts/zh_30.tres:zh" ),
+"res://assets/fonts/courier_big.tres": PoolStringArray( "res://assets/fonts/zh_big.tres:zh" )
+}
 
 [network]
 
@@ -220,4 +230,3 @@ common/physics_fps=144
 
 threads/thread_model=2
 gles3/shaders/shader_compilation_mode=2
-environment/default_environment="res://default_env.tres"

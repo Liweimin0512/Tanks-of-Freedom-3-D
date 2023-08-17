@@ -3,7 +3,6 @@
 [ext_resource path="res://assets/materials/arne32_neutral.tres" type="Material" id=1]
 [ext_resource path="res://assets/gui/markers/tile_box.obj" type="ArrayMesh" id=2]
 
-
 [node name="tile_marker" type="Spatial"]
 
 [node name="mesh" type="MeshInstance" parent="."]

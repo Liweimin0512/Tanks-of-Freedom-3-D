@@ -4,7 +4,6 @@
 [ext_resource path="res://assets/gui/markers/tile_box.obj" type="ArrayMesh" id=2]
 [ext_resource path="res://assets/materials/arne32_neutral.tres" type="Material" id=3]
 
-
 [sub_resource type="Animation" id=1]
 resource_name = "bob"
 loop = true

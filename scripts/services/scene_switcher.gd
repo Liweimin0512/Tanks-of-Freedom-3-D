@@ -4,13 +4,13 @@ onready var mouse_layer = $"/root/MouseLayer"
 var intro_played = false
 
 func main_menu():
-    self.mouse_layer.detach()
-    return self.get_tree().change_scene("res://scenes/main_menu/main_menu.tscn")
+	self.mouse_layer.detach()
+	return self.get_tree().change_scene("res://scenes/main_menu/main_menu.tscn")
 
 func map_editor():
-    self.mouse_layer.detach()
-    return self.get_tree().change_scene("res://scenes/map_editor/editor.tscn")
+	self.mouse_layer.detach()
+	return self.get_tree().change_scene("res://scenes/map_editor/editor.tscn")
 
 func board():
-    self.mouse_layer.detach()
-    return self.get_tree().change_scene("res://scenes/board/board.tscn")
+	self.mouse_layer.detach()
+	return self.get_tree().change_scene("res://scenes/board/board.tscn")
